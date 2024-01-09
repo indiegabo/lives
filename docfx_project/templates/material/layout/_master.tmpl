@@ -2,7 +2,6 @@
 {{!include(/^public/.*/)}}
 {{!include(favicon.ico)}}
 {{!include(logo.svg)}}
-{{!include(search-stopwords.json)}}
 <!DOCTYPE html>
 <html {{#_lang}}lang="{{_lang}}"{{/_lang}}>
   <head>
@@ -36,25 +35,22 @@
       <meta name="loc:themeAuto" content="{{__global.themeAuto}}">
       <meta name="loc:changeTheme" content="{{__global.changeTheme}}">
       <meta name="loc:copy" content="{{__global.copy}}">
+      <meta name="loc:downloadPdf" content="{{__global.downloadPdf}}">
     {{/redirect_url}}
-
-    <meta property="og:title" content="Sprite Animations">
-    <meta property="og:description" content="A smooth and intuitive way to work with spritesheets in Unity.">
     
-    <meta property="og:image" content="https://no-slopes.github.io/sprite-animations/images/banner.png">
+    <!-- OG Stuff -->
+    <meta property="og:title" content="IndieGabo Lives">
+    <meta property="og:description" content="Tudo que você precisa saber sobre as lives do Gabo">
+    
+    <meta property="og:image" content="https://indiegabo.github.io/lives/images/banner.png">
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     
-    <meta property="og:url" content="https://no-slopes.github.io/sprite-animations">
-    
+    <meta property="og:url" content="https://indiegabo.github.io/lives">
   </head>
 
   {{^redirect_url}}
-  <script type="module">
-    import options from './{{_rel}}public/main.js'
-    import { init } from './{{_rel}}public/docfx.min.js'
-    init(options)
-  </script>
+  <script type="module" src="./{{_rel}}public/docfx.min.js"></script>
 
   <script>
     const theme = localStorage.getItem('theme') || 'auto'
@@ -138,7 +134,7 @@
         {{^_disableNextArticle}}
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
         {{/_disableNextArticle}}
-        
+
       </div>
 
       <div class="affix">
@@ -150,7 +146,7 @@
     <div class="container-xxl search-results" id="search-results"></div>
     {{/_enableSearch}}
 
-    <footer class="border-top">
+    <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
           {{{_appFooter}}}{{^_appFooter}}<span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>{{/_appFooter}}
