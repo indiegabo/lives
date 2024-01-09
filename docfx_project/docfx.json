@@ -2,7 +2,8 @@
   "build": {
     "template": [
       "default",
-      "modern"
+      "modern",
+      "templates/material"
     ],
     "content": [
       {
