@@ -27,12 +27,32 @@
   --material-danger-header: #d32f2f1a;
   --material-danger-background: #ffebee;
   --material-danger-background-dark: #572c2c;
+}
 
-  --bs-link-color: #e5395f;
-  --bs-link-hover-color: #bd2735;
+[data-bs-theme=light] {
+  --bs-body-bg: #f4f4f4;
+  --bs-tertiary-bg: #f8f3ff;
+
+  --bs-link-color: #3e2662;
+  --bs-link-hover-color: #5f4f78;
   
-  --bs-link-color-rgb:229,57,95 !important;
-  --bs-link-hover-color-rgb: 189,35,69 !important;
+  --bs-link-color-rgb: 62,38,98 !important;
+  --bs-link-hover-color-rgb: 95,79,120!important;
+
+  nav.navbar{
+    background-color: var(--bs-tertiary-bg) !important;
+  }
+}
+
+[data-bs-theme=dark] {
+  --bs-body-bg: #130f18;
+  --bs-tertiary-bg: #1b1324;
+
+  --bs-link-color: #81569f;
+  --bs-link-hover-color: #a970ff;
+  
+  --bs-link-color-rgb: 129,86,159 !important;
+  --bs-link-hover-color-rgb: 169,112,255 !important;
 }
 
 /* HEADINGS */

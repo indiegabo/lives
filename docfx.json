@@ -40,7 +40,8 @@
       "_appLogoPath": "images/logo.png",
       "enableSearch": true,
       "_disableContribution": true,
-      "_bannerImagePath": "images/banner.png"
+      "_bannerImagePath": "images/banner.png",
+      "changeTheme": false
     },
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
