@@ -8,14 +8,8 @@
     "content": [
       {
         "files": [
-          "documentation/**.md",
-          "documentation/**.yml",
-          "documentation/animations-manager/**.yml",
-          "documentation/animations-manager/**.md",
-          "documentation/installation/**.yml",
-          "documentation/installation/**.md",
-          "documentation/sprite-animator/**.yml",
-          "documentation/sprite-animator/**.md",
+          "content/**/*.md",
+          "content/**/*.yml",
           "toc.yml",
           "*.md"
         ]
