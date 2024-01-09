@@ -1,2 +1,3 @@
-- name: Welcome
-  href: index.md
+- name: Articles
+  href: articles/
+  homepage: articles/intro.md

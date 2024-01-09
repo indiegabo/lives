@@ -1,21 +1,10 @@
 {
   "build": {
-    "template": [
-      "default",
-      "modern",
-      "templates/material"
-    ],
     "content": [
       {
         "files": [
-          "documentation/**.md",
-          "documentation/**.yml",
-          "documentation/animations-manager/**.yml",
-          "documentation/animations-manager/**.md",
-          "documentation/installation/**.yml",
-          "documentation/installation/**.md",
-          "documentation/sprite-animator/**.yml",
-          "documentation/sprite-animator/**.md",
+          "articles/**.md",
+          "articles/**/toc.yml",
           "toc.yml",
           "*.md"
         ]
@@ -28,22 +17,13 @@
         ]
       }
     ],
-    "markdownEngineProperties": {
-      "alerts": {
-        "TODO": "alert alert-secondary"
-      }
-    },
-    "output": "./_site",
-    "globalMetadata": {
-      "_appTitle": "IndieGabo Lives",
-      "_appFaviconPath": "images/favicon.ico",
-      "_appLogoPath": "images/logo.png",
-      "enableSearch": true,
-      "_disableContribution": true,
-      "_bannerImagePath": "images/banner.png"
-    },
+    "output": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
+    "template": [
+      "default",
+      "modern"
+    ],
     "postProcessors": [],
     "keepFileLink": false,
     "disableGitFeatures": false
