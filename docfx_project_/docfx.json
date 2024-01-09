@@ -2,8 +2,7 @@
   "build": {
     "template": [
       "default",
-      "modern",
-      "templates/material"
+      "modern"
     ],
     "content": [
       {
