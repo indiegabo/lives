@@ -48,11 +48,11 @@
   --bs-body-bg: #130f18;
   --bs-tertiary-bg: #1b1324;
 
-  --bs-link-color: #81569f;
-  --bs-link-hover-color: #a970ff;
+  --bs-link-color: #a970ff;
+  --bs-link-hover-color: #d2b4ff;
   
-  --bs-link-color-rgb: 129,86,159 !important;
-  --bs-link-hover-color-rgb: 169,112,255 !important;
+  --bs-link-color-rgb: 169,112,255  !important;
+  --bs-link-hover-color-rgb: 210,180,255 !important;
 }
 
 /* HEADINGS */

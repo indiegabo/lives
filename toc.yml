@@ -1,6 +1,11 @@
-- name: Welcome
+- name: Sobre
   href: index.md
+
+- name: Comandos Gerais
+  href: content/comandos/index.md
+
 - name: Gabinho
   href: content/gabinho/index.md
+
 - name: Jogos do Chat
   href: content/games/toc.yml
