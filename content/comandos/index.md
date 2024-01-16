@@ -30,11 +30,11 @@ Exemplo:
 
 ## `!crush`
 
-Declara seu crush por alguém
+Declara seu crush por uma pessoa aleatória presente na live
 
 Exemplo:
 
-`!crush @meu_crush`
+`!crush`
 
 ## `!hype`
 

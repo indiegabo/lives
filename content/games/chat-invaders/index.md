@@ -50,18 +50,18 @@ Dica para quem invade: Bocas destruídas não soltam laser e você só tem um us
 
 Usado para iniciar o jogo. Quem usa esse comando se torna a pessoa que invade durante o jogo.
 
-## `!ci-esquerda`
+## `!esquerda` | `!esq` | `!<-` | `!left`
 
 Deve ser usado durante a fase de entrada de dados para votar que o Gabinhozinho se mova para esquerda durante a execução.
 
-## `!ci-ficar`
+## `!ficar` | `!fica` | `!-` | `!stay`
 
 Deve ser usado durante a fase de entrada de dados para votar que o Gabinhozinho fique parado durante a execução.
 
-## `!ci-direita`
+## `!direita` | `!dir` | `!->` | `!right`
 
 Deve ser usado durante a fase de entrada de dados para votar que o Gabinhozinho se mova para direita durante a execução.
 
-## `!ci-laser`
+## `!laser` | `!poder` | `!power`
 
 Pode ser usado uma única vez por quem invade durante a invasão. Faz com que na fase de execução a nave mãe solte o laser especificamente pela boca da mesma coluna em que o Gabinhozinho se encontra. Lembre-se: Bocas destruídas não soltam laser e o comando é considerado usado.
