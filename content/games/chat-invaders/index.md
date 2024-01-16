@@ -46,6 +46,9 @@ Dica para quem invade: Bocas destruídas não soltam laser e você só tem um us
 
 # Comandos
 
+> [!WARNING]
+> Por conta do sistema anti-spam da twitch, as vezes será necessário revezar comandos para conseguir interagir com o jogo. Por isso alguns comandos possuem múltiplas opções.
+
 ## `!invadir`
 
 Usado para iniciar o jogo. Quem usa esse comando se torna a pessoa que invade durante o jogo.
